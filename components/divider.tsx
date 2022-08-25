@@ -5,7 +5,7 @@ type DividerProps = {
   py?: String;
 };
 
-export const Divider = ({ width, py }: DividerProps) => (
+const Divider = ({ width, py }: DividerProps) => (
   <div
     className="w-full h-0.5 flex justify-center"
     style={{ padding: `${py} 0` }}
@@ -16,3 +16,5 @@ export const Divider = ({ width, py }: DividerProps) => (
     />
   </div>
 );
+
+export default Divider;

@@ -2,10 +2,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Section from "./components/section";
-import { Divider } from "./components/divider";
+import Section from "../components/section";
+import Divider from "../components/divider";
 import { ExportCircle, Copyright, Sms } from "iconsax-react";
-import sectionData from "./data";
+import sectionData from "../data/data";
 
 const Home: NextPage = () => {
   return (
