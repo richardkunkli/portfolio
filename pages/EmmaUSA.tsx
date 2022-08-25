@@ -10,7 +10,7 @@ const EmmaUSA: NextPage = () => {
   return (
     <div className="bg-white w-[100vw] min-h-[100vh] flex justify-center text-black">
       <Head>
-        <title>Emma Vrancsik's Journey</title>
+        <title>Emma Vrancsik&apos;s Journey</title>
         <meta
           name="description"
           content="An exchange student's journey in the USA."
