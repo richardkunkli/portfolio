@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import Section from "./components/section";
 import { Divider } from "./components/divider";
-import Logo from "../public/logoMedium.svg";
 import { ExportCircle, Copyright, Sms } from "iconsax-react";
 import sectionData from "./data";
 
@@ -20,7 +19,12 @@ const Home: NextPage = () => {
       <header className="w-full flex flex-col gap-2 md:bg-neutral-900 md:px-10 pb-4">
         <div className="flex flex-row justify-between items-start">
           <div className="h-12 w-12 relative mt-4 mb-2 md:mt-10">
-            <Image alt="Logo" src={Logo} layout="fill" objectFit="contain" />
+            <Image
+              alt="Logo"
+              src="/logoMedium.svg"
+              layout="fill"
+              objectFit="contain"
+            />
           </div>
           <div className={`h-14 w-20 md:h-20 ${styles.dotGrid}`}></div>
         </div>
