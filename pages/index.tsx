@@ -6,7 +6,7 @@ import Section from "../components/section";
 import Divider from "../components/divider";
 import { ExportCircle, Copyright, Sms } from "iconsax-react";
 import sectionData from "../data/data";
-import logo from "../public/logoMedium.svg";
+// import logo from "../public/logoMedium.svg";
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <header className="w-full flex flex-col gap-2 md:bg-neutral-900 md:px-10 pb-4">
         <div className="flex flex-row justify-between items-start">
           <div className="h-12 w-12 relative mt-4 mb-2 md:mt-10">
-            <Image alt="Logo" src={logo} height={48} width={48} />
+            <Image alt="Logo" src="/logoMedium.svg" height={48} width={48} />
           </div>
           <div className={`h-14 w-20 md:h-20 ${styles.dotGrid}`}></div>
         </div>
