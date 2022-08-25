@@ -33,14 +33,15 @@ const Home: NextPage = () => {
       <main className="flex flex-col gap-2 md:bg-neutral-900 md:px-10">
         <p className="text-lg max-w-prose tracking-tight">
           <span className="inline-block origin-[70%_70%] animate-wave">👋</span>{" "}
-          Hello, I'm Richard,{" "}
+          Hello, I&apos;m Richard,{" "}
           <span className="font-semibold">Front-End Developer</span> and{" "}
           <span className="font-semibold">UI/UX Designer</span>{" "}
           <span className="whitespace-nowrap">from Hungary.</span>
         </p>
         <p className="text-lg font-light max-w-prose">
-          At this time, I'm a <span className="font-semibold">freelancer</span>,
-          with the experience of commercial projects.
+          At this time, I&apos;m a{" "}
+          <span className="font-semibold">freelancer</span>, with the experience
+          of commercial projects.
         </p>
         <Divider py="20px" />
         <h2 className="text-xl font-medium tracking-tight md:tracking-normal">

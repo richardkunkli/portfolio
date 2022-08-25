@@ -25,7 +25,10 @@ const Section = (props: SectionProps) => {
         <div className="mx-auto flex flex-col gap-2 w-full">
           {props.data.map((item) => {
             return (
-              <div className="flex flex-row justify-between items-center">
+              <div
+                className="flex flex-row justify-between items-center"
+                key={item.valueName}
+              >
                 <p className="text-neutral-400">{item.valueName}</p>
                 {item.value}
               </div>
