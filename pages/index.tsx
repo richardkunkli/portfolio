@@ -49,7 +49,7 @@ const Home: NextPage = () => {
         </h2>
         <Divider py="20px" />
         {sectionData.map((data) => {
-          return <Section {...data} />;
+          return <Section {...data} key={data.description} />;
         })}
       </main>
       <footer className="text-neutral-600 mt-6 pb-4 text-center">
