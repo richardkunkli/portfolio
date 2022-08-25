@@ -12,10 +12,10 @@ const sectionData: SectionProps[] = [
   {
     title: (
       <div className="flex flex-row items-center justify-between leading-5 flex-1">
-        <h2 className="text-lg font-bold tracking-widest uppercase rounded-lg cursor-default text-white">
+        <p className="text-lg font-bold tracking-widest uppercase rounded-lg cursor-default text-white">
           score
           <span className="text-black px-1.5 py-1 ml-1 bg-white">board</span>
-        </h2>
+        </p>
       </div>
     ),
     heading:
@@ -60,7 +60,7 @@ const sectionData: SectionProps[] = [
   //   ],
   // },
   {
-    title: <h2 className="text-2xl font-semibold">Courier</h2>,
+    title: <p className="text-2xl font-semibold">Courier</p>,
     heading: "Courier management reimagined and made easy",
     description:
       "Clamaric is a non-profit project imagined by two university student. Design lead by intuitiveness combined with user-friendliness. The purpose is to capitalize on knowledge and define a better way for student to find a tutor, and vice versa.",
