@@ -24,7 +24,7 @@ const sectionData: SectionProps[] = [
       "The program was designed to be easily extendable so it can be used for any sport. Integration with the Hungarian Handball Association’s (MKSZ) API allows for tracking real time statistics and get players’ data.",
     data: [
       { valueName: "design", value: <p>figma</p> },
-      { valueName: "prototype", value: <p>sveltekit</p> },
+      { valueName: "framework", value: <p>sveltekit</p> },
       {
         valueName: "website",
         value: (
@@ -63,7 +63,7 @@ const sectionData: SectionProps[] = [
     title: <p className="text-2xl font-semibold">Courier</p>,
     heading: "Courier management reimagined and made easy",
     description:
-      "Clamaric is a non-profit project imagined by two university student. Design lead by intuitiveness combined with user-friendliness. The purpose is to capitalize on knowledge and define a better way for student to find a tutor, and vice versa.",
+      "The multiplatform application helps restaurants easily distribute orders to their couriers. A former application completely reimagined and designed to the expectations of 2022. Interface elements fitted to be useful in every scenario.",
     data: [
       { valueName: "design", value: <p>figma</p> },
       { valueName: "prototype", value: <p>swiftui</p> },
