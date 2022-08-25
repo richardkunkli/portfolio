@@ -35,32 +35,32 @@ const sectionData: SectionProps[] = [
       },
     ],
   },
-  {
-    title: <h2 className={`text-2xl ${styles.clamaric}`}>Clamaric</h2>,
-    heading:
-      "A whole new way to interconnect tutors with their potencial student",
-    description:
-      "Clamaric is a non-profit project imagined by two university student. Design lead by intuitiveness combined with user-friendliness. The purpose is to capitalize on knowledge and define a better way for student to find a tutor, and vice versa.",
-    data: [
-      { valueName: "language", value: <p>javascript</p> },
-      { valueName: "framework", value: <p>react + nextjs</p> },
-      {
-        valueName: "website",
-        value: (
-          <a
-            href="https://clamaric.hu"
-            target="_blank"
-            className="group flex items-center"
-          >
-            clamaric.hu
-            <span className="ml-2 text-neutral-400 group-hover:text-inherit transition-colors duration-200">
-              <ExportCircle className="h-3.5 w-3.5 mt-1" />
-            </span>
-          </a>
-        ),
-      },
-    ],
-  },
+  // {
+  //   title: <h2 className={`text-2xl ${styles.clamaric}`}>Clamaric</h2>,
+  //   heading:
+  //     "A whole new way to interconnect tutors with their potencial student",
+  //   description:
+  //     "Clamaric is a non-profit project imagined by two university student. Design lead by intuitiveness combined with user-friendliness. The purpose is to capitalize on knowledge and define a better way for student to find a tutor, and vice versa.",
+  //   data: [
+  //     { valueName: "language", value: <p>javascript</p> },
+  //     { valueName: "framework", value: <p>react + nextjs</p> },
+  //     {
+  //       valueName: "website",
+  //       value: (
+  //         <a
+  //           href="https://clamaric.hu"
+  //           target="_blank"
+  //           className="group flex items-center"
+  //         >
+  //           clamaric.hu
+  //           <span className="ml-2 text-neutral-400 group-hover:text-inherit transition-colors duration-200">
+  //             <ExportCircle className="h-3.5 w-3.5 mt-1" />
+  //           </span>
+  //         </a>
+  //       ),
+  //     },
+  //   ],
+  // },
   {
     title: <h2 className="text-2xl font-semibold">Courier</h2>,
     heading: "Courier management reimagined and made easy",
