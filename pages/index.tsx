@@ -32,7 +32,9 @@ const Home: NextPage = () => {
       </header>
       <main className="flex flex-col gap-2 md:bg-neutral-900 md:px-10">
         <p className="text-lg max-w-prose tracking-tight">
-          <span className="inline-block origin-[70%_70%] animate-wave">👋</span>{" "}
+          <span className="inline-block origin-[70%_70%] animate-wave mr-1">
+            👋
+          </span>{" "}
           Hello, I&apos;m Richard,{" "}
           <span className="font-semibold">Front-End Developer</span> and{" "}
           <span className="font-semibold">UI/UX Designer</span>{" "}
@@ -45,7 +47,8 @@ const Home: NextPage = () => {
         </p>
         <Divider py="20px" />
         <h2 className="text-xl font-medium tracking-tight md:tracking-normal">
-          <span className="mr-1">👇</span>Dive into the showcase of my works
+          <span className="mr-1 md:mr-2">👇</span>Dive into the showcase of my
+          works
         </h2>
         <Divider py="20px" />
         {sectionData.map((data) => {

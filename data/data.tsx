@@ -12,9 +12,11 @@ const sectionData: SectionProps[] = [
   {
     title: (
       <div className="flex flex-row items-center justify-between leading-5 flex-1">
-        <p className="text-lg font-bold tracking-widest uppercase rounded-lg cursor-default text-white">
+        <p className="text-lg font-semibold tracking-widest uppercase rounded-lg cursor-default text-white">
           score
-          <span className="text-black px-1.5 py-1 ml-1 bg-white">board</span>
+          <span className="text-black pl-2 pr-1.5 py-1.5 ml-1 bg-white font-bold">
+            board
+          </span>
         </p>
       </div>
     ),
