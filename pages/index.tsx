@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import { useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
@@ -9,6 +10,9 @@ import sectionData from "../data/data";
 // import logo from "../public/logoMedium.svg";
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="w-full md:max-w-3xl px-4 md:mt-20 animate-reveal">
       <Head>
