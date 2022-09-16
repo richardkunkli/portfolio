@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           <div className="h-12 w-12 relative mt-4 mb-2 md:mt-10">
             <Image alt="Logo" src="/LogoMedium.svg" height={48} width={48} />
           </div>
-          <div className={`h-14 w-20 md:h-20 ${styles.dotGrid}`}></div>
+          <div className={`h-14 w-[72px] md:w-20 md:h-20 mr-2 md:mr-0 ${styles.dotGrid}`}></div>
         </div>
         <div className="w-full sticky top-0 bg-black pb-2 mt-0 md:mt-5 md:bg-transparent md:relative">
           <h1 className="text-3xl font-medium overflow-hidden">
