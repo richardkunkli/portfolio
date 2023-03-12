@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </section>
       <section className="h-[100vh] snap-center p-10">
-        <h1 className="text-3xl text-neutral-400 mb-3">projekt name</h1>
+        <h1 className="text-3xl text-neutral-400 mb-3">project name</h1>
         <h2 className="text-lg text-neutral-500 max-w-prose">
           description of this project
         </h2>
