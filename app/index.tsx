@@ -65,7 +65,7 @@ const Home: NextPage = () => {
         <p className="flex flex-row items-center justify-center">
           <span className="inline-flex items-center gap-1 pr-3 font-light">
             <Copyright variant="Outline" className="w-4 h-4" />
-            2022
+            {new Date().getFullYear()}
           </span>
           <strong className="pr-1">Richard</strong>Kunkli
         </p>
